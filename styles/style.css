@@ -257,3 +257,25 @@ a {
 .about-item a:hover {
   text-decoration: underline;
 }
+
+/* 다크모드 스타일 */
+[data-theme="dark"] #about {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+[data-theme="dark"] #about .about-item {
+  background-color: #1e1e1e;
+}
+
+[data-theme="dark"] #about .label {
+  color: #dddddd;
+}
+
+[data-theme="dark"] #about a {
+  color: white;
+}
+
+:root[data-theme="dark"] #about h2 {
+  border-bottom: 1px solid #444;
+}
