@@ -70,7 +70,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 280px; /* 원하는 카드 높이 */
+  min-height: 280px; /* 최소 높이, 내용 많으면 자동 확장 */
   padding: 1.5rem;
   background-color: var(--card-bg);
   border-radius: 10px;
